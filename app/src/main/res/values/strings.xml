@@ -1,3 +1,475 @@
 <resources>
     <string name="app_name">Abby\'s</string>
+
+    <string name="mmsws">Minute Maid® Strawberry Watermelon Slushie</string>
+    <string name="mmsws_desc">Sweet strawberry flavors combined with a candy watermelon taste for a cool, refreshing treat. Chill out with this summer drink. Available in small, medium and large sizes.</string>
+    <string name="mmsws_price">1.20</string>
+    <string name="mmsws_cal">190Cal.</string>
+    <string name="mmsws_ingrd">High Fructose Corn Syrup, Water, Apple Juice From Concentrate, Less Than 2% Of: Citric Acid, Natural Flavors, Strawberry Juice From Concentrate, Fd&amp;c Red No. 40, Apple Juice From Concentrate, Sodium Benzoate And Potassium Sorbate (to Protect Taste).</string>
+    <string name="mmsws_ratg">4.5</string>
+
+    <string name="mmtms">Minute Maid® Tropical Mango Slushie</string>
+    <string name="mmtms_desc">Sweet tropical mango taste with a hint of passion fruit flavor for an unexpected twist. Pair this refreshing summer drink with your favorite snacks. Available in small, medium and large sizes.</string>
+    <string name="mmtms_price">1.20</string>
+    <string name="mmtms_cal">170 Cal.</string>
+    <string name="mmtms_ingrd">High Fructose Corn Syrup, Water,citric Acid, Natural Flavors, Sodium Benzoate (to Protect Taste), Yellow 6.</string>
+    <string name="mmtms_ratg">High Fructose Corn Syrup, Water,citric Acid, Natural Flavors, Sodium Benzoate (to Protect Taste), Apple Juice From Concentrate, Yellow 6.</string>
+
+    <string name="cc">Coca-Cola®</string>
+    <string name="cc_desc">Coca-Cola® is a refreshing Abby\'s soda option that complements all of your menu favorites. Enjoy a refreshing Coke® at Abby\’s in extra small, small, medium and large.</string>
+    <string name="cc_price">2.00</string>
+    <string name="cc_cal">150 Cal.</string>
+    <string name="cc_ingrd">Ice, Carbonated Water, High Fructose Corn Syrup, Caramel Color, Natural Flavors, Caffeine.</string>
+    <string name="cc_ratg">4.9</string>
+
+    <string name="sprite">Sprite®</string>
+    <string name="sprite_cal">140 Cal.</string>
+    <string name="sprite_desc">Sprite® is a delicious lemon-lime fountain drink and is available in sizes extra small, small, medium, and large. Sprite® is a caffeine-free soda that makes the perfect addition to any meal.</string>
+    <string name="sprite_ingrd">Ice, Carbonated Water, High Fructose Corn Syrup, Citric Acid, Natural Flavors, Sodium Benzoate (to Protect Taste).</string>
+    <string name="sprite_price">1.90</string>
+    <string name="sprite_ratg">4.4</string>
+
+    <string name="dpp">Dr Pepper®</string>
+    <string name="dpp_cal">40 Cal.</string>
+    <string name="dpp_desc">Abby\'s serves Dr Pepper®, the classic and refreshing fountain drink with a unique blend of 23 flavors. Dr Pepper® pairs perfectly with any of your favorite menu items.</string>
+    <string name="dpp_ingrd">Ice, Carbonated Water, High Fructose Corn Syrup, Water, Caramel Color, Phosphoric Acid, Caffeine, Sodium Benzoate (preservative), Natural And Artificial Flavors, Dimethypolysiloxane.</string>
+    <string name="dpp_price">1.90</string>
+    <string name="dpp_ratg">4.4</string>
+
+    <string name="fo">Fanta® Orange</string>
+    <string name="fo_cal">150 Cal.</string>
+    <string name="fo_desc">Abby\'s Fanta® Orange is a caffeine-free soft drink full of bubbly, refreshing orange flavor. Available in small, medium, and large fountain drink sizes. Get it today.</string>
+    <string name="fo_ingrd">Ice, Carbonated Water, High Fructose Corn Syrup, Citric Acid, Potassium Benzoate (to Protect Taste), Natural Flavors, Modified Food Starch, Glycerol Ester Of Rosin, Yellow 6, Sucrose Acetate Isobutyrate, Red 40.</string>
+    <string name="fo_price">1.90</string>
+    <string name="fo_ratg">4.6</string>
+
+    <string name="dc">Diet Coke®</string>
+    <string name="dc_cal">0 Cal.</string>
+    <string name="dc_ingrd">Ice, Carbonated Water, Caramel Color, Phosphoric Acid, Sodium Saccharin, Potassium Benzoate (to Protect Taste), Natural Flavors, Citric Acid, Caffeine, Potassium Citrate, Aspartame</string>
+    <string name="dc_desc">Try an icy cold Diet Coke®, with zero calories. It’s a staple to any meal</string>
+    <string name="dc_price">1.2</string>
+    <string name="dc_ratg">4.7</string>
+
+    <string name="hcol">Hi-C® Orange Lavaburst®</string>
+    <string name="hcol_cal">160 Cal.</string>
+    <string name="hcol_desc">You asked for it, you got it—Hi-C Orange at Abby\’s is back! With a fruity flavor that teases your tastebuds it’s the perfect addition to any meal. </string>
+    <string name="hcol_ingrd">Water, High Fructose Corn Syrup, Citric Acid, Ascorbic Acid (vitamin C), Potassium Benzoate (to Protect Taste), Modified Food Starch, Natural Flavors, Glycerol Ester Of Wood Rosin, Yellow 6, Sucrose Acetate Isobutyrate, Red 40.</string>
+    <string name="hcol_price">1.00</string>
+    <string name="hcol_ratg">4.5</string>
+
+    <string name="sbs">Strawberry Banana Smoothie</string>
+    <string name="sbs_cal">190 Cal.</string>
+    <string name="sbs_desc">The Strawberry Banana Smoothie recipe features the perfect combination of fruit purees and fruit juices, such as strawberry and banana, blended with creamy low fat yogurt and ice. Our Strawberry Banana </string>
+    <string name="sbs_ingrd">Strawberry Puree, Banana Puree, Water, Grape Juice Concentrate, Clarified Demineralized Pineapple Juice Concentrate, Sugar, Contains Less Than 1%: Natural And Artificial Flavors, Cellulose Powder, Pear Juice Concentrate, Peach Juice Concentrate, Xanthan Gum, Citric Acid, Pectin, Colored With Fruit And Vegetable Juice, Ascorbic Acid (preservative), Cultured Grade A Reduced Fat Milk, Sugar, Whey Protein Concentrate, Fructose, Corn Starch, Modified Food Starch, Gelatin. Contains Active Yogurt Cultures.</string>
+    <string name="sbs_price">2.5</string>
+    <string name="sbs_ratg">4.7</string>
+
+    <string name="ht">Hot Chocolate</string>
+    <string name="ht_cal">370 Cal.</string>
+    <string name="ht_desc">Taste the delicious chocolatey flavor of a Hot Chocolate. Hot chocolate made with steamed whole milk, rich chocolate syrup and topped with whipped topping and chocolate drizzle. </string>
+    <string name="ht_ingrd">Milk, Vitamin D3 Added, Sugar, Water, Chocolate Liquor, Caramel Color, Contains 2% Or Less: Natural Flavors, Vanilla Extract, Salt, Gellan Gum, Citric Acid, Potassium Sorbate (preservative), Cream, Nonfat Milk, Liquid Sugar, Contains 2% Or Less: Mono And Diglycerides, Natural Flavors, Carrageenan. Whipping Propellant (nitrous Oxide), Corn Syrup, Dextrose, Water, Sugar, Glycerin, Hydrogenated Coconut Oil, Cocoa (processed With Alkali), Modified Food Starch, Nonfat Milk, Natural Flavors, Salt, Gellan Gum, Disodium Phosphate, Potassium Sorbate (preservative), Soy Lecithin.</string>
+    <string name="ht_price">2.00</string>
+    <string name="ht_ratg">4.2</string>
+
+    <string name="becb">Bacon, Egg &amp; Cheese Biscuit</string>
+    <string name="becb_cal">460 Cal.</string>
+    <string name="becb_desc">The Bacon, Egg &amp; Cheese Biscuit breakfast sandwich features a warm, buttermilk biscuit brushed with real butter, thick cut Applewood smoked bacon, a fluffy folded egg, and a slice of melty American cheese.</string>
+    <string name="becb_ingrd">
+        Biscuit
+        Ingredients: Enriched Flour (bleached Wheat Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Cultured Nonfat Buttermilk (cultured Skim Milk, Nonfat Dry Milk, Modified Food Starch, Salt, Mono And Diglycerides, Locust Bean Gum, Carrageenan), Palm Oil, Palm Kernel Oil, Water, Leavening (sodium Bicarbonate, Sodium Aluminum Phosphate, Monocalcium Phosphate), Contains 2% Or Less: Salt, Sugar, Modified Cellulose, Wheat Protein Isolate, Natural Flavor, Modified Food Starch, Xanthan Gum, Soy Lecithin.
+
+        Contains: Wheat, Milk, Soy.
+        Folded Egg
+        Ingredients: Eggs, Nonfat Milk, Modified Food Starch, Salt, Citric Acid.
+
+        Contains: Egg, Milk.
+        Pasteurized Process American Cheese
+        Ingredients: Milk, Cream, Water, Sodium Citrate, Salt, Cheese Cultures, Citric Acid, Enzymes, Soy Lecithin, Color Added.
+
+        Contains: Milk, Soy.
+        Thick Cut Applewood Smoked Bacon
+        Ingredients: Pork Bellies Cured With Water, Salt, Sugar, Natural Smoke Flavor, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite.
+
+        Salted Butter
+        Ingredients: Cream, Salt.
+
+        Contains: Milk.
+        Clarified Butter
+        Ingredients: Pasteurized Cream (butterfat).
+
+        Contains: Milk.</string>
+    <string name="becb_price">4.20</string>
+    <string name="becb_ratg">4.3</string>
+
+    <string name="becg">Bacon, Egg &amp; Cheese Griddles</string>
+    <string name="becg_cal">430 Cal.</string>
+    <string name="becg_desc">Bacon, Egg &amp; Cheese Griddles feature soft, warm griddle cakes with the sweet taste of maple. The recipe features thick-cut Applewood smoked bacon, a fluffy folded egg, and a slice of melty American cheese.The cakes have no artificial preservatives or flavors and no colors from artificial sources.</string>
+    <string name="becg_ingrd">
+        Griddle Cakes
+        Ingredients: Water, Enriched Flour (bleached Wheat Flour, Niacin, Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Sugar, Dextrose, Palm Oil, Contains 2% Or Less: Brown Sugar, Baking Powder (baking Soda, Sodium Acid Pyrophosphate, Monocalcium Phosphate), Modified Tapioca Starch, Rice Flour, Whey Powder, Salt, Natural Flavors, Buttermilk Powder, Soybean Oil, Caramel Color, Soy Lecithin.
+
+        Contains: Wheat, Milk, Soy.
+        Folded Egg
+        Ingredients: Eggs, Nonfat Milk, Modified Food Starch, Salt, Citric Acid.
+
+        Contains: Egg, Milk.
+        Pasteurized Process American Cheese
+        Ingredients: Milk, Cream, Water, Sodium Citrate, Salt, Cheese Cultures, Citric Acid, Enzymes, Soy Lecithin, Color Added.
+
+        Contains: Milk, Soy.
+        Thick Cut Applewood Smoked Bacon
+        Ingredients: Pork Bellies Cured With Water, Salt, Sugar, Natural Smoke Flavor, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite.
+
+        Clarified Butter
+        Ingredients: Pasteurized Cream (butterfat).
+
+        Contains: Milk.
+    </string>
+    <string name="becg_price">5.00</string>
+    <string name="becg_ratg">4.6</string>
+
+    <string name="bb">Big Breakfast</string>
+    <string name="bb_cal">760 Cal.</string>
+    <string name="bb_desc">Our full, satisfying Big Breakfast is perfect for any morning. Wake up to a breakfast meal with a warm biscuit, fluffy scrambled eggs, savory sausage, and crispy golden hash browns. </string>
+    <string name="bb_ingrd">
+        Scrambled Eggs
+        Ingredients: Eggs, Citric Acid.
+
+        Contains: Egg.
+        Biscuit
+        Ingredients: Enriched Flour (bleached Wheat Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Cultured Nonfat Buttermilk (cultured Skim Milk, Nonfat Dry Milk, Modified Food Starch, Salt, Mono And Diglycerides, Locust Bean Gum, Carrageenan), Palm Oil, Palm Kernel Oil, Water, Leavening (sodium Bicarbonate, Sodium Aluminum Phosphate, Monocalcium Phosphate), Contains 2% Or Less: Salt, Sugar, Modified Cellulose, Wheat Protein Isolate, Natural Flavor, Modified Food Starch, Xanthan Gum, Soy Lecithin.
+
+        Contains: Wheat, Milk, Soy.
+        Hash Browns
+        Ingredients: Potatoes, Vegetable Oil (canola Oil, Soybean Oil, Hydrogenated Soybean Oil, Natural Beef Flavor [wheat And Milk Derivatives]*), Salt, Corn Flour, Dehydrated Potato, Dextrose, Sodium Acid Pyrophosphate (maintain Color), Extractives Of Black Pepper. *natural Beef Flavor Contains Hydrolyzed Wheat And Hydrolyzed Milk As Starting Ingredients
+
+        Contains: Wheat, Milk.
+        Sausage Patty
+        Ingredients: Pork, Water, Salt, Spices, Dextrose, Sugar, Rosemary Extract, Natural Flavors.
+
+        Salted Butter
+        Ingredients: Cream, Salt.
+
+        Contains: Milk.
+        Clarified Butter
+        Ingredients: Pasteurized Cream (butterfat).
+
+        Contains: Milk.</string>
+    <string name="bb_price">10.00</string>
+    <string name="bb_ratg">4.6</string>
+
+    <string name="sb">Sausage Burrito</string>
+    <string name="sb_cal">310 Cal.</string>
+    <string name="sb_desc">The Sausage Burrito is loaded with fluffy scrambled egg, pork sausage, melty cheese, green chiles and onion! It\'s wrapped in a soft tortilla, making it the perfect grab and go breakfast. </string>
+    <string name="sb_ingrd">
+        Scrambled Egg Sausage And Vegetable Mix
+        Ingredients: Whole Eggs, Pork, Tomatoes, Skim Milk, Soybean Oil, Green Chilies, Onions, Modified Corn Starch, Spices, Salt, Water, Dextrose, Natural Flavors, Xanthan Gum, Citric Acid, Sugar, Rosemary Extract, Calcium Chloride, Citric Acid.
+
+        Contains: Egg, Milk.
+        Flour Tortilla
+        Ingredients: Enriched Flour (bleached Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Water, Shortening (intereserified Soybean Oil, Soybean Oil, Hydrogenated Soybean Oil, Hydrogenated Cottonseed Oil), Contains 2% Or Less: Sugar, Leavening (baking Soda, Corn Starch, Sodium Aluminum Sulfate, Calcium Sulfate, Monocalcium Phosphate), Salt, Mono-diglycerides, Vital Wheat Gluten, Dough Conditioner (sodium Metabisulfite, Corn Starch, Microcrystalline Cellulose, Dicalcium Phosphate).
+
+        Contains: Wheat.
+        Pasteurized Process American Cheese
+        Ingredients: Milk, Cream, Water, Sodium Citrate, Salt, Cheese Cultures, Citric Acid, Enzymes, Soy Lecithin, Color Added.
+
+        Contains: Milk, Soy.
+    </string>
+    <string name="sb_price">5.20</string>
+    <string name="sb_ratg">4.6</string>
+
+    <string name="hc">Hotcakes</string>
+    <string name="hc_cal">580 Cal.</string>
+    <string name="hc_desc">If you love pancakes, you\'ve got to try Abby\'s hotcakes with a side of real butter and sweet maple flavored hotcake syrup. This Abby\'s breakfast comes with 3 golden brown hotcakes. </string>
+    <string name="hc_ingrd">
+        Hotcakes
+        Ingredients: Water, Enriched Flour (wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Whey, Corn Flour, Soybean Oil, Sugar, Eggs, Leavening (baking Soda, Sodium Aluminum Phosphate, Monocalcium Phosphate), Dextrose, Emulsifier (mono And Diglycerides, Propylene Glycol Monoesters Of Fats And Fatty Acids, Sodium Stearoyl Lactylate), Salt, Xanthan Gum, Natural Flavors, Beta Carotene (color), Soy Lecithin.
+
+        Contains: Wheat, Egg, Milk, Soy.
+        Hotcake Syrup
+        Ingredients: Corn Syrup, Sugar, Water, Natural Flavors, Potassium Sorbate (preservative), Caramel Color.
+
+        Salted Whipped Butter
+        Ingredients: Sweet Cream, Salt.
+
+        Contains: Milk.
+    </string>
+    <string name="hc_price">6.40</string>
+    <string name="hc_ratg">4.7</string>
+
+    <string name="fmo">Fruit &amp; Maple Oatmeal</string>
+    <string name="fmo_cal">320 Cal.</string>
+    <string name="fmo_desc">Our Fruit and Maple Oatmeal has two full servings of whole-grain oats with a touch of cream and brown sugar. Loaded with red and green apples, cranberries and two varieties of raisins, our oatmeal makes for a hearty, wholesome breakfast of whole grains and fruit. </string>
+    <string name="fmo_ingrd">
+        Oatmeal
+        Ingredients: Water, Whole Grain Rolled Oats, Brown Sugar, Modified Food Starch, Salt, Natural Flavor, Barley Malt Extract, Caramel Color.
+
+        Diced Apples
+        Ingredients: Apples, Calcium Ascorbate (a Blend Of Calcium And Vitamin C To Maintain Color).
+
+        Cranberry Raisin Blend
+        Ingredients: Sweetened Dried Cranberries (sugar, Cranberries), California Raisins, Golden Raisins, Sunflower Oil, Sulfur Dioxide As A Preservative (contains Sulfites).
+
+        Light Cream
+        Ingredients: Milk, Cream, Sodium Phosphate, Datem, Sodium Stearoyl Lactylate, Sodium Citrate, Carrageenan.
+
+        Contains: Milk.</string>
+    <string name="fmo_price">8.00</string>
+    <string name="fmo_ratg">4.3</string>
+
+    <string name="bm">Big Mac®</string>
+    <string name="bm_cal">550 Cal.</string>
+    <string name="bm_desc">Mouthwatering perfection starts with two 100% pure beef patties and Big Mac® sauce sandwiched between a sesame seed bun. It’s topped off with pickles, crisp shredded lettuce, finely chopped onion and American cheese for a 100% beef burger with a taste like no other. It contains no artificial flavors, preservatives or added colors from artificial sources.* Our pickle contains an artificial preservative, so skip it if you like. </string>
+    <string name="bm_ingrd">
+        Big Mac Bun
+        Ingredients: Enriched Flour (wheat Flour, Malted Barley Flour, Niacin, Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Water, Sugar, Yeast, Soybean Oil, Contains 2% Or Less: Salt, Wheat Gluten, Sesame Seeds, Potato Flour, May Contain One Or More Dough Conditioners (datem, Ascorbic Acid, Mono And Diglycerides, Enzymes), Vinegar.
+
+        Contains: Wheat.
+        100% Beef Patty
+        Ingredients: 100% Pure Usda Inspected Beef; No Fillers, No Extenders.
+
+        Shredded Lettuce
+        Ingredients: Lettuce.
+
+        Big Mac Sauce
+        Ingredients: Soybean Oil, Sweet Relish (diced Pickles, Sugar, High Fructose Corn Syrup, Distilled Vinegar, Salt, Corn Syrup, Xanthan Gum, Calcium Chloride, Spice Extractives), Water, Egg Yolks, Distilled Vinegar, Spices, Onion Powder, Salt, Propylene Glycol Alginate, Garlic Powder, Vegetable Protein (hydrolyzed Corn, Soy And Wheat), Sugar, Caramel Color, Turmeric, Extractives Of Paprika, Soy Lecithin.
+
+        Contains: Egg, Soy, Wheat.
+        Pasteurized Process American Cheese
+        Ingredients: Milk, Cream, Water, Sodium Citrate, Salt, Cheese Cultures, Citric Acid, Enzymes, Soy Lecithin, Color Added.
+
+        Contains: Milk, Soy.
+        Pickle Slices
+        Ingredients: Cucumbers, Water, Distilled Vinegar, Salt, Calcium Chloride, Alum, Potassium Sorbate (preservative), Natural Flavors, Polysorbate 80, Extractives Of Turmeric (color).
+
+        Onions
+        Ingredients: Onions.
+    </string>
+    <string name="bm_price">5.40</string>
+    <string name="bm_ratg">6.80</string>
+
+    <string name="qpwc">Quarter Pounder®* with Cheese</string>
+    <string name="qpwc_cal">520 Cal.</string>
+    <string name="qpwc_desc">Each Quarter Pounder® with Cheese burger features a ¼ lb.* of 100% fresh beef that’s hot, deliciously juicy and cooked when you order. It’s seasoned with just a pinch of salt and pepper, sizzled on a flat iron grill, then topped with slivered onions, tangy pickles and two slices of melty American cheese on a sesame seed bun. Our QPC® contains no artificial flavors, preservatives or added colors from artificial sources. **Our pickle contains an artificial preservative, so skip it if you like. </string>
+    <string name="qpwc_ingrd">
+        Quarter Pound 100% Beef Patty*
+        Ingredients: 100% Pure Usda Inspected Beef; No Fillers, No Extenders.
+
+        Quarter Pound Bun
+        Ingredients: Enriched Flour (wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Water, Sugar, Yeast, Soybean Oil, Contains 2% Or Less: Sesame Seeds, Salt, Wheat Gluten, Dextrose, Guar Gum, Vinegar, Vegetable Proteins (pea, Potato, Rice), Sunflower And/or Canola Oil, Maltodextrin, Natural Flavors, May Contain One Or More Dough Conditioners (datem, Ascorbic Acid, Mono And Diglycerides, Enzymes), Modified Food Starch.
+
+        Contains: Wheat.
+        Pasteurized Process American Cheese
+        Ingredients: Milk, Cream, Water, Sodium Citrate, Salt, Cheese Cultures, Citric Acid, Enzymes, Soy Lecithin, Color Added.
+
+        Contains: Milk, Soy.
+        Ketchup
+        Ingredients: Tomato Concentrate From Red Ripe Tomatoes, Distilled Vinegar, High Fructose Corn Syrup, Corn Syrup, Water, Salt, Natural Flavors.
+
+        Pickle Slices
+        Ingredients: Cucumbers, Water, Distilled Vinegar, Salt, Calcium Chloride, Alum, Potassium Sorbate (preservative), Natural Flavors, Polysorbate 80, Extractives Of Turmeric (color).
+
+        Onions
+        Ingredients: Onions.
+
+        Mustard
+        Ingredients: Distilled Vinegar, Water, Mustard Seed, Salt, Turmeric, Paprika, Spice Extractive.</string>
+    <string name="qpwc_price">9.00</string>
+    <string name="qpwc_ratg">4.5</string>
+
+    <string name="cb">Cheeseburger</string>
+    <string name="cb_cal">300 Cal.</string>
+    <string name="cb_desc">Our simple, classic cheeseburger begins with a 100% pure beef burger seasoned with just a pinch of salt and pepper. The Cheeseburger is topped with a tangy pickle, chopped onions, ketchup, mustard, and a slice of melty American cheese. It contains no artificial flavors, preservatives or added colors from artificial sources.* Our pickle contains an artificial preservative, so skip it if you like.</string>
+    <string name="cb_ingrd">
+        Regular Bun
+        Ingredients: Enriched Flour (wheat Flour, Malted Barley Flour, Niacin, Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Water, Sugar, Yeast, Soybean Oil, Contains 2% Or Less: Salt, Wheat Gluten, Potato Flour, May Contain One Or More Dough Conditioners (datem, Ascorbic Acid, Mono And Diglycerides, Enzymes), Vinegar.
+
+        Contains: Wheat.
+        100% Beef Patty
+        Ingredients: 100% Pure Usda Inspected Beef; No Fillers, No Extenders.
+
+        Pasteurized Process American Cheese
+        Ingredients: Milk, Cream, Water, Sodium Citrate, Salt, Cheese Cultures, Citric Acid, Enzymes, Soy Lecithin, Color Added.
+
+        Contains: Milk, Soy.
+        Ketchup
+        Ingredients: Tomato Concentrate From Red Ripe Tomatoes, Distilled Vinegar, High Fructose Corn Syrup, Corn Syrup, Water, Salt, Natural Flavors.
+
+        Pickle Slices
+        Ingredients: Cucumbers, Water, Distilled Vinegar, Salt, Calcium Chloride, Alum, Potassium Sorbate (preservative), Natural Flavors, Polysorbate 80, Extractives Of Turmeric (color).
+
+        Onions
+        Ingredients: Onions.
+
+        Mustard
+        Ingredients: Distilled Vinegar, Water, Mustard Seed, Salt, Turmeric, Paprika, Spice Extractive.
+    </string>
+    <string name="cb_price">7.50</string>
+    <string name="cb_ratg">4.9</string>
+
+    <string name="hb">Hamburger</string>
+    <string name="hb_cal">250 Cal.</string>
+    <string name="hb_desc">The original burger starts with a 100% pure beef burger seasoned with just a pinch of salt and pepper. Then, the burger is topped with a tangy pickle, chopped onions, ketchup and mustard. Our hamburger contains no artificial flavors, preservatives or added colors from artificial sources.* Our pickle contains an artificial preservative, so skip it if you like.</string>
+    <string name="hb_ingrd">
+        Regular Bun
+        Ingredients: Enriched Flour (wheat Flour, Malted Barley Flour, Niacin, Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Water, Sugar, Yeast, Soybean Oil, Contains 2% Or Less: Salt, Wheat Gluten, Potato Flour, May Contain One Or More Dough Conditioners (datem, Ascorbic Acid, Mono And Diglycerides, Enzymes), Vinegar.
+
+        Contains: Wheat.
+        100% Beef Patty
+        Ingredients: 100% Pure Usda Inspected Beef; No Fillers, No Extenders.
+
+        Ketchup
+        Ingredients: Tomato Concentrate From Red Ripe Tomatoes, Distilled Vinegar, High Fructose Corn Syrup, Corn Syrup, Water, Salt, Natural Flavors.
+
+        Pickle Slices
+        Ingredients: Cucumbers, Water, Distilled Vinegar, Salt, Calcium Chloride, Alum, Potassium Sorbate (preservative), Natural Flavors, Polysorbate 80, Extractives Of Turmeric (color).
+
+        Onions
+        Ingredients: Onions.
+
+        Mustard
+        Ingredients: Distilled Vinegar, Water, Mustard Seed, Salt, Turmeric, Paprika, Spice
+    </string>
+    <string name="hb_price">8.90</string>
+    <string name="hb_ratg">4.1</string>
+
+    <string name="ccs">Crispy Chicken Sandwich</string>
+    <string name="ccs_cal">470 Cal.</string>
+    <string name="ccs_desc">Crispy Chicken Sandwich is a southern style fried chicken sandwich that\'s crispy, juicy and tender perfection. It’s topped with crinkle-cut pickles and served on a toasted, buttered potato roll.</string>
+    <string name="ccs_ingrd">
+        Crispy Chicken Fillet
+        Ingredients: Chicken Breast Fillets With Rib Meat, Water, Wheat Flour, Vegetable Oil (canola Oil, Corn Oil, Soybean Oil, Hydrogenated Soybean Oil), Sugar, Salt, Modified Food Starch, Leavening (baking Soda, Sodium Aluminum Phosphate, Sodium Acid Pyrophosphate, Monocalcium Phosphate), Yellow Corn Flour, Modified Corn Starch, Sodium Phosphate, Spices, Wheat Gluten, Yeast Extract, Monosodium Glutamate, Extractives Of Paprika (color), Natural Flavors, Gum Arabic, Maltodextrin.
+
+        Contains: Wheat.
+        Potato Roll
+        Ingredients: Enriched Flour (wheat Flour, Malted Barley, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Flour (wheat Flour, Malted Barley Flour), Water, Sugar, Yeast, Potato Flour, Wheat Gluten, Soybean Oil, Contains 2% Or Less: Honey, Salt, Vinegar, Ascorbic Acid, Enzymes, Inactive Yeast, Datem, Natural Flavors, Vegetable Proteins (pea, Potato, Faba Bean), Vegetable Oil (canola And Or Sunflower Oil), Wheat Starch, Dextrose, Colors (turmeric, Paprika), Dextrose, Acetic Acid, Maltodextrin, Wheat Protein.
+
+        Contains: Wheat
+        Crinkle Cut Pickle
+        Ingredients: Cucumbers, Water, Salt, Distilled Vinegar, Contains 2% Or Less: Calcium Chloride, Natural Flavors, Sodium Benzoate (preservative), Polysorbate 80, Turmeric (color).
+
+        Salted Butter
+        Ingredients: Cream, Salt.
+
+        Contains: Milk.</string>
+    <string name="ccs_price">4.50</string>
+    <string name="ccs_ratg">4.2</string>
+
+    <string name="cn">Chicken Nuggets</string>
+    <string name="cn_cal">170 Cal.</string>
+    <string name="cn_desc">Our tender, juicy Chicken Nuggets are made with all white meat chicken and no artificial colors, flavors or preservatives. </string>
+    <string name="cn_ingrd">
+        Chicken McNuggets®
+        Ingredients: White Boneless Chicken, Water, Vegetable Oil (canola Oil, Corn Oil, Soybean Oil, Hydrogenated Soybean Oil), Enriched Flour (bleached Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Bleached Wheat Flour, Yellow Corn Flour, Vegetable Starch (modified Corn, Wheat, Rice, Pea, Corn), Salt, Leavening (baking Soda, Sodium Aluminum Phosphate, Sodium Acid Pyrophosphate, Calcium Lactate, Monocalcium Phosphate), Spices, Yeast Extract, Lemon Juice Solids, Dextrose, Natural Flavors.
+
+        Contains: Wheat.
+    </string>
+    <string name="cn_price">5.00</string>
+    <string name="cn_ratg">4.0</string>
+
+    <string name="fof">Filet-O-Fish®</string>
+    <string name="fof_cal">390 Cal.</string>
+    <string name="fof_desc">Dive into our wild-caught Filet-O-Fish®! This Abby\’s fish sandwich has fish sourced from sustainably managed fisheries, on melty American cheese and topped with creamy Abby\’s tartar sauce, all served on a soft, steamed bun.</string>
+    <string name="fof_ingrd">
+        Fish Filet Patty
+        Ingredients: Pollock, Water, Vegetable Oil (canola Oil, Corn Oil, Soybean Oil, Hydrogenated Soybean Oil), Wheat Flour, Modified Food Starch, Contains 2% Or Less: Yellow Corn Flour, Bleached Wheat Flour, Salt, Whey (milk), Dextrose, Dried Yeast, Sugar, Cellulose Gum, Paprika And Turmeric Extract (color), Natural Flavors.
+
+        Contains: Fish (pollock), Wheat, Milk.
+        Regular Bun
+        Ingredients: Enriched Flour (wheat Flour, Malted Barley Flour, Niacin, Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Water, Sugar, Yeast, Soybean Oil, Contains 2% Or Less: Salt, Wheat Gluten, Potato Flour, May Contain One Or More Dough Conditioners (datem, Ascorbic Acid, Mono And Diglycerides, Enzymes), Vinegar.
+
+        Contains: Wheat.
+        Tartar Sauce
+        Ingredients: Soybean Oil, Pickle Relish (diced Pickles, Vinegar, Salt, Capers, Xanthan Gum, Potassium Sorbate [preservative], Calcium Chloride, Spice Extractives, Polysorbate 80), Egg Yolks, Water, Onions, Distilled Vinegar, Sugar, Spice, Salt, Xanthan Gum, Potassium Sorbate (preservative), Parsley.
+
+        Contains: Egg.
+        Pasteurized Process American Cheese Half Slice
+        Ingredients: Milk, Cream, Water, Sodium Citrate, Salt, Cheese Cultures, Citric Acid, Enzymes, Soy Lecithin, Color Added.
+
+        Contains: Milk, Soy.
+    </string>
+    <string name="fof_price">7.20</string>
+    <string name="fof_ratg">4.6</string>
+
+    <string name="cs">Chocolate Shake</string>
+    <string name="cs_cal">520 Cal.</string>
+    <string name="cs_desc">Try the Abby\’s Chocolate Shake, the perfect sweet treat for any time of the day. Our chocolate shake is made with delicious soft serve, chocolate syrup and finished off with a creamy whipped topping. It is available in small, medium and large.</string>
+    <string name="cs_ingrd">
+        Vanilla Reduced Fat Ice Cream
+        Ingredients: Milk, Sugar, Cream, Corn Syrup, Natural Flavor, Mono And Diglycerides, Cellulose Gum, Guar Gum, Carrageenan, Vitamin A Palmitate.
+
+        Contains: Milk.
+        Chocolate Shake Syrup
+        Ingredients: Sugar, Corn Syrup, Water, Glycerin, Cocoa (processed With Alkali), Fruit And Vegetable Juice (color), Salt, Natural Flavors, Potassium Sorbate (preservative).
+
+        Whipped Light Cream
+        Ingredients: Cream, Nonfat Milk, Liquid Sugar, Contains 2% Or Less: Mono And Diglycerides, Natural Flavors, Carrageenan. Whipping Propellant (nitrous Oxide).
+
+        Contains: Milk.
+    </string>
+    <string name="cs_price">6.00</string>
+    <string name="cs_ratg">4.4</string>
+
+    <string name="ccc">Chocolate Chip Cookie</string>
+    <string name="ccc_cal">170 Cal.</string>
+    <string name="ccc_desc">Abby\'s classic chocolate chip cookie, loaded with chocolate chips. It\'s a soft baked cookie and warmed to perfection. Treat yourself today.</string>
+    <string name="ccc_ingrd">
+        Chocolate Chip Cookie
+        Ingredients: Semi-sweet Chocolate Chips (sugar, Unsweetened Chocolate, Cocoa Butter, Milkfat, Soy Lecithin, Natural Flavor), Enriched Flour (bleached Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Margarine (palm Oil, Water, Soybean Oil, Salt, Whey, Natural Flavor, Mono And Diglycerides, Soy Lecithin, Vitamin A Palmitate, Beta Carotene [color]), Sugar, Brown Sugar, Egg, Contains 2% Or Less: Leavening (baking Soda, Sodium Acid Pyrophosphate, Monocalcium Phosphate), Salt, Natural Flavor, Caramel Color.
+
+        Contains: Egg, Milk, Soy, Wheat.
+    </string>
+    <string name="ccc_price">4.20</string>
+    <string name="ccc_ratg">4.6</string>
+
+    <string name="bap">Baked Apple Pie</string>
+    <string name="bap_cal">230 Cal.</string>
+    <string name="bap_desc">The Baked Apple Pie recipe features 100% American-grown apples, and a lattice crust baked to perfection and topped with sprinkled sugar. </string>
+    <string name="bap_ingrd">
+        Baked Apple Pie
+        Ingredients: Apples (apples, Ascorbic Acid, Salt, Citric Acid), Enriched Flour (bleached Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Sugar, Palm Oil, Water, Apple Juice Concentrate, Modified Food Starch, Invert Syrup, Contains 2% Or Less: Yeast, Salt, Cinnamon, Sunflower Lecithin, L-cysteine (dough Conditioner), Yeast Extract, Enzyme, Beta-carotene (color).
+
+        Contains: Wheat.
+    </string>
+    <string name="bap_price">6.60</string>
+    <string name="bap_ratg">4.6</string>
+
+    <string name="hcs">Hot Caramel Sundae</string>
+    <string name="hcs_cal">330 Cal.</string>
+    <string name="hcs_desc">Treat yourself to a Hot Caramel Sundae at Abby\'s! This Caramel Sundae combines creamy vanilla soft serve and warm, buttery caramel topping. Order it to complete your Abby\'s meal.</string>
+    <string name="hcs_ingrd">
+        Vanilla Reduced Fat Ice Cream
+        Ingredients: Milk, Sugar, Cream, Corn Syrup, Natural Flavor, Mono And Diglycerides, Cellulose Gum, Guar Gum, Carrageenan, Vitamin A Palmitate.
+
+        Contains: Milk.
+        Caramel Topping
+        Ingredients: Corn Syrup, Milk, Sugar, High Fructose Corn Syrup, Water, Butter (cream, Salt), Disodium Phosphate, Salt, Pectin, Natural Flavor.
+
+        Contains: Milk.
+    </string>
+    <string name="hcs_price">4.50</string>
+    <string name="hcs_ratg">4.3</string>
+
+    <string name="fr">Fries</string>
+    <string name="fr_cal">220 Cal.</string>
+    <string name="fr_desc">Abby\'s Fries are made with premium potatoes such as the Russet Burbank and the Shepody. With 0g of trans fat per labeled serving, these epic fries are crispy and golden on the outside and fluffy on the inside.</string>
+    <string name="fr_ingrd">
+        French Fries
+        Ingredients: Potatoes, Vegetable Oil (canola Oil, Corn Oil, Soybean Oil, Hydrogenated Soybean Oil, Natural Beef Flavor [wheat And Milk Derivatives]*), Dextrose, Sodium Acid Pyrophosphate (maintain Color), Salt. *natural Beef Flavor Contains Hydrolyzed Wheat And Hydrolyzed Milk As Starting Ingredients.
+
+        Contains: Wheat, Milk.
+    </string>
+    <string name="fr_price">3.20</string>
+    <string name="fr_ratg">4.9</string>
+
+    <string name="as">Apple Slices</string>
+    <string name="as_cal">15 Cal.</string>
+    <string name="as_desc">Our Apple Slices are a wholesome, tasty side made from real apples. Specially selected varieties mean our apple slices are always crisp and juicy, making for a tasty snack with 15 calories per labelled serving. </string>
+    <string name="as_ingrd">
+        Apple Slices
+        Ingredients: Apples, Calcium Ascorbate (a Blend Of Calcium And Vitamin C To Maintain Freshness And Color).
+    </string>
+    <string name="as_price">1.50</string>
+    <string name="as_ratg">4.0</string>
+
 </resources>
