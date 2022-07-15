@@ -21,8 +21,8 @@ class  ItemAdapter: BaseAdapter {
         val item = this.listOfItems[p0]
         var inflator = context!!.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
         var itemView= inflator.inflate(R.layout.item_ticket,null)
-        itemView.findViewById<ImageView>(R.id.ivFoodImage).setImageResource(item.img!!)
-        foodView.findViewById<ImageView>(R.id.ivFoodImage).setOnClickListener {
+        itemView.findViewById<ImageView>(R.id.backgroundImage).setImageResource(item.img!!)
+        itemView.findViewById<ImageView>(R.id.backgroundImage).setOnClickListener {
 
             val intent = Intent(context,FoodDetailsActivity::class.java)
             intent.putExtra("name",food.name!!)
