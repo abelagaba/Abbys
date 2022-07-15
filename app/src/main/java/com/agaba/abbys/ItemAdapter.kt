@@ -21,17 +21,23 @@ class  ItemAdapter: BaseAdapter {
         val item = this.listOfItems[p0]
         var inflator = context!!.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
         var itemView= inflator.inflate(R.layout.item_ticket,null)
-        itemView.findViewById<ImageView>(R.id.backgroundImage).setImageResource(item.img!!)
-        itemView.findViewById<ImageView>(R.id.backgroundImage).setOnClickListener {
+        itemView.findViewById<ImageView>(R.id.itemImage).setImageResource(item.image!!)
+        itemView.findViewById<ImageView>(R.id.itemImage).setOnClickListener {
 
-            val intent = Intent(context,FoodDetailsActivity::class.java)
-            intent.putExtra("name",food.name!!)
-            intent.putExtra("des",food.des!!)
-            intent.putExtra("image",food.image!!)
+            val intent = Intent(context,ItemDetailsActivity::class.java)
+            intent.putExtra("name",item.name!!)
+            intent.putExtra("desc",item.desc!!)
+            intent.putExtra("price",item.price!!)
+            intent.putExtra("cal",item.cal!!)
+            intent.putExtra("ingrd",item.ingrd!!)
+            intent.putExtra("ratg",item.ratg!!)
+            intent.putExtra("image",item.image!!)
             context!!.startActivity(intent)
         }
-        foodView.findViewById<TextView>(R.id.tvName).text =  food.name!!
-        return  foodView
+        itemView.findViewById<TextView>(R.id.rating).text = item.ratg!!
+        itemView.findViewById<TextView>(R.id.itemName).text = item.name!!
+
+        return  itemView
 
     }
 

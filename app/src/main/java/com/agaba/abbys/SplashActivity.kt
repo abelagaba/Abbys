@@ -8,6 +8,7 @@ import android.os.Handler
 import android.view.View
 import android.view.animation.AnimationUtils
 import android.widget.ImageView
+import android.widget.TextView
 
 @Suppress("DEPRECATION")
 class SplashActivity : AppCompatActivity() {
@@ -27,10 +28,12 @@ class SplashActivity : AppCompatActivity() {
         val icon1: ImageView = findViewById(R.id.icon1)
         val icon2: ImageView = findViewById(R.id.icon2)
         val icon3: ImageView = findViewById(R.id.icon3)
+        val appName: TextView = findViewById(R.id.appName)
         val appearAnimation = AnimationUtils.loadAnimation(this, R.anim.appear)
         icon1.startAnimation(appearAnimation)
         icon2.startAnimation(appearAnimation)
         icon3.startAnimation(appearAnimation)
+        appName.startAnimation(appearAnimation)
 
         Handler().postDelayed({
             val intent = Intent(this, MainActivity::class.java)
