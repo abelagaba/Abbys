@@ -18,27 +18,21 @@ class SplashActivity : AppCompatActivity() {
 
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
 
-        //reference of background for animation
-        val animDrawable = findViewById<androidx.constraintlayout.widget.ConstraintLayout>(R.id.splashId).background as AnimationDrawable
-        animDrawable.setEnterFadeDuration(10)
-        animDrawable.setExitFadeDuration(1000)
-        animDrawable.start()
-
-        //reference of image for animation
-        val icon1: ImageView = findViewById(R.id.icon1)
-        val icon2: ImageView = findViewById(R.id.icon2)
-        val icon3: ImageView = findViewById(R.id.icon3)
-        val appName: TextView = findViewById(R.id.appName)
-        val appearAnimation = AnimationUtils.loadAnimation(this, R.anim.appear)
-        icon1.startAnimation(appearAnimation)
-        icon2.startAnimation(appearAnimation)
-        icon3.startAnimation(appearAnimation)
-        appName.startAnimation(appearAnimation)
-
         Handler().postDelayed({
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
             finish()
         }, 5000)
+
+        val animDrawable = findViewById<androidx.constraintlayout.widget.ConstraintLayout>(R.id.splashId).background as AnimationDrawable
+        animDrawable.setEnterFadeDuration(10)
+        animDrawable.setExitFadeDuration(1000)
+        animDrawable.start()
+
+        val icon = findViewById<ImageView>(R.id.icon)
+        val appName = findViewById<TextView>(R.id.appName)
+        val appearAnimation = AnimationUtils.loadAnimation(this, R.anim.appear)
+        icon.startAnimation(appearAnimation)
+        appName.startAnimation(appearAnimation)
     }
 }

@@ -5,19 +5,33 @@
       <map>
         <entry key="..\:/AndroidApps/Abbys/app/src/main/res/drawable/background.xml" value="0.172" />
         <entry key="..\:/AndroidApps/Abbys/app/src/main/res/drawable/circle.xml" value="0.185" />
+        <entry key="..\:/AndroidApps/Abbys/app/src/main/res/drawable/circle_stroke.xml" value="0.186" />
         <entry key="..\:/AndroidApps/Abbys/app/src/main/res/drawable/darken.xml" value="0.186" />
         <entry key="..\:/AndroidApps/Abbys/app/src/main/res/drawable/gradient_animation.xml" value="0.185" />
         <entry key="..\:/AndroidApps/Abbys/app/src/main/res/drawable/gradient_centre.xml" value="0.186" />
         <entry key="..\:/AndroidApps/Abbys/app/src/main/res/drawable/gradient_end.xml" value="0.187" />
         <entry key="..\:/AndroidApps/Abbys/app/src/main/res/drawable/gradient_start.xml" value="0.185" />
+        <entry key="..\:/AndroidApps/Abbys/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.1" />
+        <entry key="..\:/AndroidApps/Abbys/app/src/main/res/drawable/ic_baseline_restaurant_24.xml" value="0.187" />
         <entry key="..\:/AndroidApps/Abbys/app/src/main/res/drawable/ic_baseline_restaurant_menu_24.xml" value="0.187" />
+        <entry key="..\:/AndroidApps/Abbys/app/src/main/res/drawable/ic_baseline_shopping_bag_black24.xml" value="0.1995" />
+        <entry key="..\:/AndroidApps/Abbys/app/src/main/res/drawable/icon.xml" value="0.187" />
+        <entry key="..\:/AndroidApps/Abbys/app/src/main/res/drawable/icon_white.xml" value="0.1995" />
+        <entry key="..\:/AndroidApps/Abbys/app/src/main/res/drawable/orange_solid_circle.xml" value="0.1995" />
+        <entry key="..\:/AndroidApps/Abbys/app/src/main/res/drawable/restaurant_profile_background.xml" value="0.1995" />
+        <entry key="..\:/AndroidApps/Abbys/app/src/main/res/drawable/rounded_gray_background.xml" value="0.1995" />
+        <entry key="..\:/AndroidApps/Abbys/app/src/main/res/drawable/rounded_white_background.xml" value="0.1995" />
         <entry key="..\:/AndroidApps/Abbys/app/src/main/res/drawable/splash_background.xml" value="0.171" />
-        <entry key="..\:/AndroidApps/Abbys/app/src/main/res/layout/activity_category_details.xml" value="0.16259057971014493" />
+        <entry key="..\:/AndroidApps/Abbys/app/src/main/res/drawable/white_solid_circle.xml" value="0.1" />
+        <entry key="..\:/AndroidApps/Abbys/app/src/main/res/layout-w1240dp/content_scrolling.xml" value="0.13119143239625167" />
+        <entry key="..\:/AndroidApps/Abbys/app/src/main/res/layout/activity_category_details.xml" value="0.25" />
         <entry key="..\:/AndroidApps/Abbys/app/src/main/res/layout/activity_item_details.xml" value="0.1" />
-        <entry key="..\:/AndroidApps/Abbys/app/src/main/res/layout/activity_splash.xml" value="0.15806159420289856" />
-        <entry key="..\:/AndroidApps/Abbys/app/src/main/res/layout/category_ticket.xml" value="0.16259057971014493" />
+        <entry key="..\:/AndroidApps/Abbys/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/AndroidApps/Abbys/app/src/main/res/layout/activity_scrolling.xml" value="2.0" />
+        <entry key="..\:/AndroidApps/Abbys/app/src/main/res/layout/activity_splash.xml" value="0.16569282136894825" />
+        <entry key="..\:/AndroidApps/Abbys/app/src/main/res/layout/category_ticket.xml" value="0.25" />
         <entry key="..\:/AndroidApps/Abbys/app/src/main/res/layout/content_scrolling.xml" value="0.16259057971014493" />
-        <entry key="..\:/AndroidApps/Abbys/app/src/main/res/layout/item_ticket.xml" value="0.2" />
+        <entry key="..\:/AndroidApps/Abbys/app/src/main/res/layout/item_ticket.xml" value="0.9" />
       </map>
     </option>
   </component>

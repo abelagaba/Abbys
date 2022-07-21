@@ -12,7 +12,7 @@ import android.widget.TextView
 class  CategoryAdapter: BaseAdapter {
     var listOfCategories= ArrayList<Category>()
     var context: Context?=null
-    constructor(context: Context, listOfItems:ArrayList<Item>):super(){
+    constructor(context: Context, listOfItems:ArrayList<Category>):super(){
         this.context=context
         this.listOfCategories=listOfCategories
     }
@@ -25,8 +25,8 @@ class  CategoryAdapter: BaseAdapter {
         categoryView.findViewById<ImageView>(R.id.categoryImage).setOnClickListener {
 
             val intent = Intent(context,CategoryDetailsActivity::class.java)
-            intent.putExtra("image",category.image!!)
-            intent.putExtra("desc",category.desc!!)
+            intent.putExtra("name",category.name!!)
+            intent.putExtra("desc",category.tagline!!)
             context!!.startActivity(intent)
         }
         categoryView.findViewById<TextView>(R.id.categoryName).text = category.name!!

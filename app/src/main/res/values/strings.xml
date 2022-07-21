@@ -64,12 +64,12 @@
     <string name="sbs_price">2.5</string>
     <string name="sbs_ratg">4.7</string>
 
-    <string name="ht">Hot Chocolate</string>
-    <string name="ht_cal">370 Cal.</string>
-    <string name="ht_desc">Taste the delicious chocolatey flavor of a Hot Chocolate. Hot chocolate made with steamed whole milk, rich chocolate syrup and topped with whipped topping and chocolate drizzle. </string>
-    <string name="ht_ingrd">Milk, Vitamin D3 Added, Sugar, Water, Chocolate Liquor, Caramel Color, Contains 2% Or Less: Natural Flavors, Vanilla Extract, Salt, Gellan Gum, Citric Acid, Potassium Sorbate (preservative), Cream, Nonfat Milk, Liquid Sugar, Contains 2% Or Less: Mono And Diglycerides, Natural Flavors, Carrageenan. Whipping Propellant (nitrous Oxide), Corn Syrup, Dextrose, Water, Sugar, Glycerin, Hydrogenated Coconut Oil, Cocoa (processed With Alkali), Modified Food Starch, Nonfat Milk, Natural Flavors, Salt, Gellan Gum, Disodium Phosphate, Potassium Sorbate (preservative), Soy Lecithin.</string>
-    <string name="ht_price">2.00</string>
-    <string name="ht_ratg">4.2</string>
+    <string name="hch">Hot Chocolate</string>
+    <string name="hch_cal">370 Cal.</string>
+    <string name="hch_desc">Taste the delicious chocolatey flavor of a Hot Chocolate. Hot chocolate made with steamed whole milk, rich chocolate syrup and topped with whipped topping and chocolate drizzle. </string>
+    <string name="hch_ingrd">Milk, Vitamin D3 Added, Sugar, Water, Chocolate Liquor, Caramel Color, Contains 2% Or Less: Natural Flavors, Vanilla Extract, Salt, Gellan Gum, Citric Acid, Potassium Sorbate (preservative), Cream, Nonfat Milk, Liquid Sugar, Contains 2% Or Less: Mono And Diglycerides, Natural Flavors, Carrageenan. Whipping Propellant (nitrous Oxide), Corn Syrup, Dextrose, Water, Sugar, Glycerin, Hydrogenated Coconut Oil, Cocoa (processed With Alkali), Modified Food Starch, Nonfat Milk, Natural Flavors, Salt, Gellan Gum, Disodium Phosphate, Potassium Sorbate (preservative), Soy Lecithin.</string>
+    <string name="hch_price">2.00</string>
+    <string name="hch_ratg">4.2</string>
 
     <string name="becb">Bacon, Egg &amp; Cheese Biscuit</string>
     <string name="becb_cal">460 Cal.</string>
@@ -462,15 +462,16 @@
     <string name="fr_price">3.20</string>
     <string name="fr_ratg">4.9</string>
 
-    <string name="as">Apple Slices</string>
-    <string name="as_cal">15 Cal.</string>
-    <string name="as_desc">Our Apple Slices are a wholesome, tasty side made from real apples. Specially selected varieties mean our apple slices are always crisp and juicy, making for a tasty snack with 15 calories per labelled serving. </string>
-    <string name="as_ingrd">
+    <string name="aps">Apple Slices</string>
+    <string name="aps_cal">15 Cal.</string>
+    <string name="aps_desc">Our Apple Slices are a wholesome, tasty side made from real apples. Specially selected varieties mean our apple slices are always crisp and juicy, making for a tasty snack with 15 calories per labelled serving. </string>
+    <string name="aps_ingrd">
         Apple Slices
         Ingredients: Apples, Calcium Ascorbate (a Blend Of Calcium And Vitamin C To Maintain Freshness And Color).
     </string>
-    <string name="as_price">1.50</string>
-    <string name="as_ratg">4.0</string>
+    <string name="aps_price">1.50</string>
+    <string name="aps_ratg">4.0</string>
+
     <string name="title_activity_food_details">FoodDetailsActivity</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
@@ -563,5 +564,6 @@
     </string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_category_details">CategoryDetailsActivity</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
 
 </resources>

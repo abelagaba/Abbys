@@ -2,55 +2,40 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/splashId"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient_animation"
-    android:id="@+id/splashId"
     tools:context=".SplashActivity">
 
     <TextView
         android:id="@+id/appName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="156dp"
-        android:layout_marginBottom="308dp"
         android:fontFamily="sans-serif-thin"
         android:text="@string/app_name"
-        android:textSize="34sp"
+        android:textColor="#000000"
+        android:textSize="24sp"
         android:textStyle="bold"
         android:typeface="normal"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <ImageView
-        android:id="@+id/icon1"
-        android:layout_width="114dp"
-        android:layout_height="88dp"
-        android:layout_marginStart="96dp"
-        android:layout_marginBottom="356dp"
-        android:rotation="90"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/ic_baseline_signal_cellular_4_bar_24" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.557" />
 
     <ImageView
-        android:id="@+id/icon2"
-        android:layout_width="122dp"
-        android:layout_height="174dp"
-        android:layout_marginStart="124dp"
-        android:layout_marginBottom="312dp"
-        android:rotation="-90"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/ic_baseline_signal_cellular_alt_24" />
-
-    <ImageView
-        android:id="@+id/icon3"
-        android:layout_width="116dp"
-        android:layout_height="106dp"
-        android:layout_marginEnd="79dp"
-        android:layout_marginBottom="350dp"
+        android:id="@+id/icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/white_circle_stroke"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/ic_baseline_restaurant_menu_24" />
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.458"
+        app:srcCompat="@drawable/ic_baseline_restaurant_24" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

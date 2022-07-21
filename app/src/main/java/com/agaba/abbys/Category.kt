@@ -2,12 +2,12 @@ package com.agaba.abbys
 
 class Category {
     var name:String? =null
-    var desc:String? =null
+    var tagline:String? =null
     var image:Int? =null
 
-    constructor(name:String, desc:String, image:Int){
+    constructor(name:String, tagline:String, image:Int){
         this.name=name
-        this.desc=desc
+        this.tagline=tagline
         this.image=image
     }
 }
