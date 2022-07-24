@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
 
 class OrderActivity : AppCompatActivity() {
 
-    var orderIcon = findViewById<ImageView>(R.id.order)
+    var orderIcon = findViewById<ImageView>(R.id.addToBag)
     var itemName = findViewById<TextView>(R.id.itemName).text.toString()
     var order:Item? = null
     var orderAdapter:OrderAdapter? = null

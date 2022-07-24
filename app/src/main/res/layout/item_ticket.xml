@@ -4,63 +4,71 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="180dp"
     android:layout_height="101.25dp"
-    android:id="@+id/itemCardView"
+    app:contentPadding="0dp"
+    android:layout_margin="0dp"
     app:cardCornerRadius="20dp">
 
-    <ImageView
-        android:id="@+id/itemImage"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:foreground="@drawable/darken"
-        android:layout_gravity="top"
+    <RelativeLayout
+        android:id="@+id/itemCardView"
+        android:layout_width="180dp"
+        android:layout_height="101.25dp"
+        android:layout_gravity="fill"
         android:padding="0dp"
-        android:layout_margin="0dp"
-        app:srcCompat="@drawable/bacon_egg_and_cheese_biscuit" />
+        android:layout_margin="0dp">
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:padding="3dp"
-        android:layout_margin="5dp">
+        <ImageView
+            android:id="@+id/itemImage"
+            android:layout_width="180dp"
+            android:layout_height="101.25dp"
+            android:layout_margin="0dp"
+            android:layout_gravity="fill"
+            android:padding="0dp"
+            android:foreground="@drawable/darken"
+            app:srcCompat="@drawable/bacon_egg_and_cheese_biscuit"/>
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_gravity="start"
-            android:background="@drawable/rounded_gray_background"
-            android:layout_marginEnd="50dp">
-
-            <TextView
-                android:id="@+id/rating"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="rating"
-                android:textSize="10sp"
-                android:layout_gravity="center"/>
-
-            <ImageView
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                app:srcCompat="@drawable/ic_baseline_star_24" />
-
-        </LinearLayout>
+            android:padding="5dp"
+            android:orientation="horizontal">
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_gravity="end">
+                android:layout_gravity="start"
+                android:background="@drawable/rounded_gray_background"
+                android:layout_marginEnd="60dp">
+
+                <TextView
+                    android:id="@+id/rating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="rating"
+                    android:textSize="10sp"
+                    android:layout_gravity="center"/>
 
                 <ImageView
-                    android:id="@+id/order"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    app:srcCompat="@drawable/ic_baseline_star_24" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/addToBag"
                     android:layout_width="20dp"
                     android:layout_height="20dp"
                     android:layout_marginEnd="10dp"
                     android:background="@drawable/white_solid_circle"
                     android:onClick="order"
-                    app:srcCompat="@drawable/ic_baseline_shopping_bag_black_24" />
+                    app:srcCompat="@drawable/ic_baseline_shopping_bag_black_24"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
                 <ImageView
                     android:id="@+id/favorite"
@@ -68,23 +76,24 @@
                     android:layout_height="20dp"
                     android:background="@drawable/white_solid_circle"
                     android:onClick="favorite"
-                    app:srcCompat="@drawable/ic_baseline_favorite_border_24" />
+                    app:srcCompat="@drawable/ic_baseline_favorite_border_24"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+            </LinearLayout>
+
+
         </LinearLayout>
 
-    </LinearLayout>
+        <TextView
+            android:id="@+id/itemName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:layout_marginStart="10dp"
+            android:text="name"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold" />
 
-
-    <TextView
-        android:id="@+id/itemName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="32dp"
-        android:text="name"
-        android:textColor="@color/white"
-        android:textSize="12sp"
-        android:textStyle="bold" />
+    </RelativeLayout>
 
 </androidx.cardview.widget.CardView>

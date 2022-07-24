@@ -21,7 +21,7 @@ class CategoryDetailsActivity : AppCompatActivity() {
             WindowManager.LayoutParams.FLAG_FULLSCREEN,
             WindowManager.LayoutParams.FLAG_FULLSCREEN
         )
-        
+
         val bundle=intent.extras
 
         val mmsws = Item(getString(R.string.mmsws), getString(R.string.mmsws_desc), getString(R.string.mmsws_price), getString(R.string.mmsws_cal), getString(R.string.mmsws_ingrd), getString(R.string.mmsws_ratg), R.drawable.minute_maid_strawberry_watermelon_slushie)

@@ -21,8 +21,8 @@ class  OrderAdapter: BaseAdapter {
         val item = this.listOfItems[p0]
         var inflator = context!!.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
         var itemView= inflator.inflate(R.layout.order_ticket,null)
-        itemView.findViewById<ImageView>(R.id.itemImage).setImageResource(item.image!!)
-        itemView.findViewById<ImageView>(R.id.itemImage).setOnClickListener {
+        itemView.findViewById<ImageView>(R.id.orderImage).setImageResource(item.image!!)
+        itemView.findViewById<ImageView>(R.id.orderImage).setOnClickListener {
 
             val intent = Intent(context,ItemDetailsActivity::class.java)
             intent.putExtra("name",item.name!!)

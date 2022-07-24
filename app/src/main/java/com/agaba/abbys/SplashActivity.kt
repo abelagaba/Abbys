@@ -1,14 +1,14 @@
 package com.agaba.abbys
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
 import android.graphics.drawable.AnimationDrawable
+import android.os.Bundle
 import android.os.Handler
 import android.view.View
 import android.view.animation.AnimationUtils
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 
 @Suppress("DEPRECATION")
 class SplashActivity : AppCompatActivity() {
@@ -32,7 +32,8 @@ class SplashActivity : AppCompatActivity() {
         val icon = findViewById<ImageView>(R.id.icon)
         val appName = findViewById<TextView>(R.id.appName)
         val appearAnimation = AnimationUtils.loadAnimation(this, R.anim.appear)
-        icon.startAnimation(appearAnimation)
+        val scaleAnimation = AnimationUtils.loadAnimation(this, R.anim.scale)
+        icon.startAnimation(scaleAnimation)
         appName.startAnimation(appearAnimation)
     }
 }
