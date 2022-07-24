@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/AndroidApps/Abbys/app/src/main/res/drawable/background.xml" value="0.172" />
+        <entry key="..\:/AndroidApps/Abbys/app/src/main/res/drawable/black_circle_stroke.xml" value="0.1995" />
         <entry key="..\:/AndroidApps/Abbys/app/src/main/res/drawable/black_solid_circle.xml" value="0.1965" />
         <entry key="..\:/AndroidApps/Abbys/app/src/main/res/drawable/circle.xml" value="0.185" />
         <entry key="..\:/AndroidApps/Abbys/app/src/main/res/drawable/circle_stroke.xml" value="0.186" />
@@ -13,6 +14,7 @@
         <entry key="..\:/AndroidApps/Abbys/app/src/main/res/drawable/gradient_end.xml" value="0.187" />
         <entry key="..\:/AndroidApps/Abbys/app/src/main/res/drawable/gradient_start.xml" value="0.185" />
         <entry key="..\:/AndroidApps/Abbys/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.1" />
+        <entry key="..\:/AndroidApps/Abbys/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.1995" />
         <entry key="..\:/AndroidApps/Abbys/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.1975" />
         <entry key="..\:/AndroidApps/Abbys/app/src/main/res/drawable/ic_baseline_local_fire_department_24.xml" value="0.1995" />
         <entry key="..\:/AndroidApps/Abbys/app/src/main/res/drawable/ic_baseline_remove_24.xml" value="0.1995" />
@@ -32,13 +34,16 @@
         <entry key="..\:/AndroidApps/Abbys/app/src/main/res/drawable/white_solid_circle.xml" value="0.1" />
         <entry key="..\:/AndroidApps/Abbys/app/src/main/res/layout-w1240dp/content_scrolling.xml" value="0.13119143239625167" />
         <entry key="..\:/AndroidApps/Abbys/app/src/main/res/layout/activity_category_details.xml" value="0.1" />
+        <entry key="..\:/AndroidApps/Abbys/app/src/main/res/layout/activity_favorites.xml" value="0.25" />
         <entry key="..\:/AndroidApps/Abbys/app/src/main/res/layout/activity_item_details.xml" value="0.2796296296296296" />
         <entry key="..\:/AndroidApps/Abbys/app/src/main/res/layout/activity_main.xml" value="0.18665018541409148" />
+        <entry key="..\:/AndroidApps/Abbys/app/src/main/res/layout/activity_order.xml" value="0.31006160164271046" />
         <entry key="..\:/AndroidApps/Abbys/app/src/main/res/layout/activity_scrolling.xml" value="2.0" />
         <entry key="..\:/AndroidApps/Abbys/app/src/main/res/layout/activity_splash.xml" value="0.16569282136894825" />
         <entry key="..\:/AndroidApps/Abbys/app/src/main/res/layout/category_ticket.xml" value="0.5" />
         <entry key="..\:/AndroidApps/Abbys/app/src/main/res/layout/content_scrolling.xml" value="0.16259057971014493" />
         <entry key="..\:/AndroidApps/Abbys/app/src/main/res/layout/item_ticket.xml" value="0.47634069400630913" />
+        <entry key="..\:/AndroidApps/Abbys/app/src/main/res/layout/order_ticket.xml" value="0.22" />
       </map>
     </option>
   </component>

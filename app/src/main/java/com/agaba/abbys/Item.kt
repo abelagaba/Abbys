@@ -8,6 +8,7 @@ class Item {
     var ingrd:String? =null
     var ratg:String? =null
     var image:Int? =null
+    var qty:Int? =null
 
     constructor(name:String, desc:String, price:String, cal:String, ingrd:String, ratg:String, image:Int){
         this.name=name
@@ -18,4 +19,6 @@ class Item {
         this.ratg=ratg
         this.image=image
     }
+
+
 }

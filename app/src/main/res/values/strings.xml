@@ -472,7 +472,7 @@
     <string name="aps_price">1.50</string>
     <string name="aps_ratg">4.0</string>
 
-    <string name="title_activity_item_details">ItenDetailsActivity</string>
+    <string name="title_activity_item_details">ItemDetailsActivity</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_category_details">CategoryDetailsActivity</string>
     <string name="abby_s_restaurant">Abby\'s Restaurant</string>

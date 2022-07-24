@@ -6,6 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingTop="0dp"
+    android:layout_margin="0dp"
+    android:paddingBottom="20dp"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -13,6 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="0dp"
+        android:layout_gravity="top"
         android:layout_marginTop="0dp"
         android:orientation="vertical">
 

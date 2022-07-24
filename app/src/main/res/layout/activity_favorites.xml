@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:paddingVertical="10dp"
-    tools:context=".CategoryDetailsActivity">
+    android:paddingHorizontal="10dp"
+    tools:context=".FavoritesActivity">
 
     <TextView
-        android:id="@+id/category"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Category"
+        android:text="Favorites"
         android:layout_marginStart="20dp"
         android:textSize="20sp"
         android:textColor="@color/black"
@@ -24,10 +23,9 @@
         android:layout_height="10dp"/>
 
     <TextView
-        android:id="@+id/tagline"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="tagline"
+        android:text="No rush. Keep track of your wishlist or regulars"
         android:layout_marginStart="40dp"
         android:textSize="14sp"/>
 
@@ -36,7 +34,7 @@
         android:layout_height="10dp"/>
 
     <GridView
-        android:id="@+id/itemGridView"
+        android:id="@+id/favGridView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginHorizontal="10dp"
@@ -45,5 +43,3 @@
         android:verticalSpacing="5pt" />
 
 </LinearLayout>
-
-
