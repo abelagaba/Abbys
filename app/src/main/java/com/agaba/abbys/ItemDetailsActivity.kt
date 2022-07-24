@@ -43,6 +43,7 @@ class ItemDetailsActivity : AppCompatActivity() {
     fun decreaseQty(view: View){
         if(qtyInt != 0)
             qty.text = (-- qtyInt).toString()
+        else return
 
         for (x in listOfItems){
             if(x.name.equals(bundle!!.getString("name")))

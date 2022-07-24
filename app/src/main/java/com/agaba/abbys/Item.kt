@@ -19,6 +19,4 @@ class Item {
         this.ratg=ratg
         this.image=image
     }
-
-
 }
