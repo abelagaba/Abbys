@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/image_background_5"
     android:paddingVertical="20dp"
     android:paddingHorizontal="20dp"
     tools:context=".OrderActivity">
@@ -14,7 +15,7 @@
         android:layout_height="wrap_content"
         android:text="Your Order"
         android:textSize="20sp"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textStyle="bold"/>
 
     <Space
@@ -54,7 +55,7 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="10dp"
             android:text="Total Charge:"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="16sp"
             android:textStyle="bold"/>
 
@@ -63,6 +64,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/ic_baseline_attach_money_24"
+            android:textColor="@color/white"
             android:textSize="14sp"/>
 
     </LinearLayout>

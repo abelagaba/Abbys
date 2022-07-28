@@ -1,6 +1,8 @@
 package com.agaba.abbys
 
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuInflater
 import android.view.View
 import android.widget.GridView
 import androidx.appcompat.app.AppCompatActivity
@@ -27,4 +29,12 @@ class MainActivity : AppCompatActivity() {
         findViewById<GridView>(R.id.mainGridView).adapter = categoryAdapter
 
     }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        val inflater: MenuInflater = menuInflater
+        inflater.inflate(R.menu.activity_menu, menu)
+
+        return super.onCreateOptionsMenu(menu)
+    }
 }
+

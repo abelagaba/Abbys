@@ -1,22 +1,23 @@
 package com.agaba.abbys
 
-class Item {
-    var name:String? =null
-    var desc:String? =null
-    var price:String? =null
-    var cal:String? =null
-    var ingrd:String? =null
-    var ratg:String? =null
-    var image:Int? =null
+class Item(
+    name: String,
+    desc: String,
+    price: String,
+    cal: String,
+    ingrd: String,
+    ratg: String,
+    image: Int
+) {
+    var name:String? = name
+    var desc:String? = desc
+    var price:String? = price
+    var cal:String? = cal
+    var ingrd:String? = ingrd
+    var ratg:String? = ratg
+    var image:Int? = image
     var qty:Int? =null
+    var favorite:Boolean? =false
+    var ordered:Boolean? =false
 
-    constructor(name:String, desc:String, price:String, cal:String, ingrd:String, ratg:String, image:Int){
-        this.name=name
-        this.desc=desc
-        this.price=price
-        this.cal=cal
-        this.ingrd=ingrd
-        this.ratg=ratg
-        this.image=image
-    }
 }

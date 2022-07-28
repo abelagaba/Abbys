@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/image_background_4"
     android:paddingVertical="10dp"
     android:paddingHorizontal="10dp"
     tools:context=".FavoritesActivity">
@@ -15,7 +16,7 @@
         android:text="Favorites"
         android:layout_marginStart="20dp"
         android:textSize="20sp"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textStyle="bold"/>
 
     <Space
@@ -26,6 +27,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="No rush. Keep track of your wishlist or regulars"
+        android:textColor="@color/white"
         android:layout_marginStart="40dp"
         android:textSize="14sp"/>
 
@@ -41,5 +43,14 @@
         android:horizontalSpacing="5pt"
         android:numColumns="auto_fit"
         android:verticalSpacing="5pt" />
+
+    <TextView
+        android:id="@+id/noFavorites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        android:textColor="@color/white"
+        android:textSize="14sp"/>
 
 </LinearLayout>

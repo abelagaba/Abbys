@@ -66,7 +66,8 @@
                     android:layout_height="20dp"
                     android:layout_marginEnd="10dp"
                     android:background="@drawable/white_solid_circle"
-                    android:onClick="order"
+                    android:clickable="true"
+                    android:tag="removed"
                     app:srcCompat="@drawable/ic_baseline_shopping_bag_black_24"
                     tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
@@ -75,7 +76,8 @@
                     android:layout_width="20dp"
                     android:layout_height="20dp"
                     android:background="@drawable/white_solid_circle"
-                    android:onClick="favorite"
+                    android:clickable="true"
+                    android:tag="unFav"
                     app:srcCompat="@drawable/ic_baseline_favorite_border_24"
                     tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
             </LinearLayout>
@@ -87,8 +89,8 @@
             android:id="@+id/itemName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="45dp"
             android:layout_marginStart="10dp"
+            android:layout_marginTop="45dp"
             android:text="name"
             android:textColor="@color/white"
             android:textSize="12sp"

@@ -28,12 +28,13 @@
             app:srcCompat="@drawable/apple_slices"/>
 
         <ImageView
-            android:id="@+id/favorite"
+            android:id="@+id/itemFavorite"
             android:layout_width="20dp"
             android:layout_height="20dp"
             android:layout_gravity="right"
             android:layout_marginEnd="20dp"
             android:background="@drawable/white_solid_circle"
+            android:tag="unFav"
             app:srcCompat="@drawable/ic_baseline_favorite_border_24" />
 
         <Space
@@ -61,7 +62,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:drawableLeft="@drawable/ic_baseline_local_fire_department_24"
-                android:background="@drawable/rounded_gray_background"
+                android:background="@drawable/rounded_white_background"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:layout_marginBottom="10dp"
@@ -73,7 +74,7 @@
                 android:id="@+id/divider"
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="?android:attr/listDivider" />
+                android:background="@color/white" />
 
             <Space
                 android:layout_width="match_parent"
@@ -140,12 +141,11 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:id="@+id/subtract"
+                            android:id="@+id/decreaseQty"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:background="@drawable/black_solid_circle"
-                            android:onClick="decreaseQty"
+                            android:background="@drawable/green_solid_circle"
                             app:srcCompat="@drawable/ic_baseline_remove_24" />
 
                         <TextView
@@ -159,12 +159,11 @@
                             android:textColor="@color/white" />
 
                         <ImageView
-                            android:id="@+id/add"
+                            android:id="@+id/increaseQty"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:background="@drawable/orange_solid_circle"
-                            android:onClick="increaseQty"
                             app:srcCompat="@drawable/ic_baseline_add_24" />
 
                     </LinearLayout>
@@ -180,7 +179,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Allergens"
-                android:textColor="@color/white"
+                android:textColor="@color/blue"
                 android:textSize="14sp"
                 android:layout_marginVertical="3dp"
                 android:textStyle="bold"/>
@@ -198,12 +197,14 @@
                 android:layout_height="20dp"/>
 
             <Button
+                android:id="@+id/addItemToBag"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:paddingHorizontal="30dp"
                 android:layout_margin="10dp"
                 android:text="Add to bag"
+                android:tag="removed"
                 android:textSize="14sp"
                 android:textStyle="bold"
                 android:textColor="@color/white"
