@@ -6,8 +6,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/image_background_4"
-    android:paddingVertical="10dp"
-    android:paddingHorizontal="10dp"
     tools:context=".FavoritesActivity">
 
     <TextView
@@ -15,6 +13,7 @@
         android:layout_height="wrap_content"
         android:text="Favorites"
         android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
         android:textSize="20sp"
         android:textColor="@color/white"
         android:textStyle="bold"/>
@@ -26,7 +25,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="No rush. Keep track of your wishlist or regulars"
+        android:text="Keep track of your wishlist and regulars"
         android:textColor="@color/white"
         android:layout_marginStart="40dp"
         android:textSize="14sp"/>
@@ -35,6 +34,28 @@
         android:layout_width="match_parent"
         android:layout_height="10dp"/>
 
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@color/white" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+    <TextView
+        android:id="@+id/noFavorites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:text = "Your Favorites will appear here"
+        android:textColor="@color/gray"
+        android:textSize="14sp"/>
+
     <GridView
         android:id="@+id/favGridView"
         android:layout_width="match_parent"
@@ -42,15 +63,6 @@
         android:layout_marginHorizontal="10dp"
         android:horizontalSpacing="5pt"
         android:numColumns="auto_fit"
-        android:verticalSpacing="5pt" />
-
-    <TextView
-        android:id="@+id/noFavorites"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:visibility="invisible"
-        android:textColor="@color/white"
-        android:textSize="14sp"/>
+        android:verticalSpacing="5pt"/>
 
 </LinearLayout>

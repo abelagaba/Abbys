@@ -15,9 +15,8 @@ class FavoritesActivity : AppCompatActivity() {
 
         var favoriteAdapter:ItemAdapter? = null
 
-        if(listOFFavorites == null){
+        if(listOFFavorites.isEmpty()){
             findViewById<TextView>(R.id.noFavorites).visibility = VISIBLE
-            findViewById<TextView>(R.id.noFavorites).text = "Your Favorites will appear here"
         }else {
             favoriteAdapter = ItemAdapter(this, listOFFavorites)
             findViewById<GridView>(R.id.favGridView).adapter = favoriteAdapter

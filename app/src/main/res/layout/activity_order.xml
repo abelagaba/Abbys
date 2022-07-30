@@ -6,14 +6,14 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/image_background_5"
-    android:paddingVertical="20dp"
-    android:paddingHorizontal="20dp"
     tools:context=".OrderActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Your Order"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
         android:textSize="20sp"
         android:textColor="@color/white"
         android:textStyle="bold"/>
@@ -21,6 +21,28 @@
     <Space
         android:layout_width="match_parent"
         android:layout_height="10dp"/>
+
+    <View
+        android:id="@+id/divider1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@color/white" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+    <TextView
+        android:id="@+id/noOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="300dp"
+        android:text="Your order will appear here"
+        android:textColor="@color/gray"
+        android:textSize="14sp"
+        android:visibility="gone" />
 
     <GridView
         android:id="@+id/orderGridView"
@@ -39,52 +61,62 @@
         android:id="@+id/divider"
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="?android:attr/listDivider" />
+        android:layout_marginHorizontal="10dp"
+        android:background="@color/white" />
 
     <Space
         android:layout_width="match_parent"
         android:layout_height="10dp"/>
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="10dp"
-            android:text="Total Charge:"
-            android:textColor="@color/white"
-            android:textSize="16sp"
-            android:textStyle="bold"/>
-
-        <TextView
-            android:id="@+id/totalCharge"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:drawableLeft="@drawable/ic_baseline_attach_money_24"
-            android:textColor="@color/white"
-            android:textSize="14sp"/>
-
-    </LinearLayout>
-
-    <Space
+        android:id="@+id/chargeAndCheckout"
         android:layout_width="match_parent"
-        android:layout_height="10dp"/>
-
-    <Button
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:paddingHorizontal="30dp"
-        android:layout_margin="10dp"
-        android:text="Checkout"
-        android:textSize="14sp"
-        android:textStyle="bold"
-        android:textColor="@color/white"
-        android:drawableLeft="@drawable/ic_baseline_check_24"
-        android:drawablePadding="10dp"
-        android:background="@drawable/rounded_orange_background"/>
+        android:layout_marginHorizontal="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:text="Total Charge:"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/totalCharge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_baseline_attach_money_24"
+                android:textColor="@color/white"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+
+        <Button
+            android:id="@+id/checkout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingHorizontal="30dp"
+            android:layout_margin="10dp"
+            android:text="Checkout"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:drawableLeft="@drawable/ic_baseline_check_24"
+            android:drawablePadding="10dp"
+            android:background="@drawable/rounded_orange_background"/>
+    </LinearLayout>
 
 </LinearLayout>

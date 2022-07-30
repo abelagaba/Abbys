@@ -20,9 +20,15 @@ class  OrderAdapter: BaseAdapter {
     override fun getView(p0: Int, p1: View?, p2: ViewGroup?): View {
         val item = this.listOfItems[p0]
         var inflator = context!!.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
-        var itemView= inflator.inflate(R.layout.order_ticket,null)
-        itemView.findViewById<ImageView>(R.id.orderImage).setImageResource(item.image!!)
-        itemView.findViewById<ImageView>(R.id.orderImage).setOnClickListener {
+        var orderItemView= inflator.inflate(R.layout.order_ticket,null)
+
+        orderItemView.findViewById<ImageView>(R.id.orderImage).setImageResource(item.image!!)
+        orderItemView.findViewById<TextView>(R.id.orderItemName).text = item.name!!
+        orderItemView.findViewById<TextView>(R.id.orderItemRating).text = item.ratg!!
+        orderItemView.findViewById<TextView>(R.id.orderQuantity).text = item.qty!!.toString()
+        orderItemView.findViewById<TextView>(R.id.orderPrice).text = item.price!!
+
+        orderItemView.findViewById<ImageView>(R.id.orderImage).setOnClickListener {
 
             val intent = Intent(context,ItemDetailsActivity::class.java)
             intent.putExtra("name",item.name!!)
@@ -34,13 +40,8 @@ class  OrderAdapter: BaseAdapter {
             intent.putExtra("image",item.image!!)
             context!!.startActivity(intent)
         }
-        itemView.findViewById<TextView>(R.id.itemName).text = item.name!!
-        itemView.findViewById<TextView>(R.id.rating).text = item.ratg!!
-        itemView.findViewById<TextView>(R.id.orderQuantity).text = item.qty!!.toString()
-        itemView.findViewById<TextView>(R.id.orderPrice).text = item.price!!
 
-        return  itemView
-
+        return  orderItemView
     }
 
     override fun getItem(p0: Int): Any {

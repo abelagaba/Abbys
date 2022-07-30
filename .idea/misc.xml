@@ -34,11 +34,11 @@
         <entry key="..\:/AndroidApps/Abbys/app/src/main/res/drawable/splash_background.xml" value="0.171" />
         <entry key="..\:/AndroidApps/Abbys/app/src/main/res/drawable/white_solid_circle.xml" value="0.1" />
         <entry key="..\:/AndroidApps/Abbys/app/src/main/res/layout-w1240dp/content_scrolling.xml" value="0.13119143239625167" />
-        <entry key="..\:/AndroidApps/Abbys/app/src/main/res/layout/activity_category_details.xml" value="0.1" />
-        <entry key="..\:/AndroidApps/Abbys/app/src/main/res/layout/activity_favorites.xml" value="0.25" />
-        <entry key="..\:/AndroidApps/Abbys/app/src/main/res/layout/activity_item_details.xml" value="0.33" />
-        <entry key="..\:/AndroidApps/Abbys/app/src/main/res/layout/activity_main.xml" value="0.18665018541409148" />
-        <entry key="..\:/AndroidApps/Abbys/app/src/main/res/layout/activity_order.xml" value="0.31006160164271046" />
+        <entry key="..\:/AndroidApps/Abbys/app/src/main/res/layout/activity_category_details.xml" value="0.25" />
+        <entry key="..\:/AndroidApps/Abbys/app/src/main/res/layout/activity_favorites.xml" value="0.22" />
+        <entry key="..\:/AndroidApps/Abbys/app/src/main/res/layout/activity_item_details.xml" value="0.18" />
+        <entry key="..\:/AndroidApps/Abbys/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/AndroidApps/Abbys/app/src/main/res/layout/activity_order.xml" value="0.22" />
         <entry key="..\:/AndroidApps/Abbys/app/src/main/res/layout/activity_scrolling.xml" value="2.0" />
         <entry key="..\:/AndroidApps/Abbys/app/src/main/res/layout/activity_splash.xml" value="0.16569282136894825" />
         <entry key="..\:/AndroidApps/Abbys/app/src/main/res/layout/category_ticket.xml" value="0.5" />

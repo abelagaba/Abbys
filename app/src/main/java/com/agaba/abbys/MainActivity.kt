@@ -1,10 +1,11 @@
 package com.agaba.abbys
 
+import android.content.Intent
 import android.os.Bundle
-import android.view.Menu
 import android.view.MenuInflater
 import android.view.View
 import android.widget.GridView
+import android.widget.PopupMenu
 import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
@@ -30,11 +31,29 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        val inflater: MenuInflater = menuInflater
-        inflater.inflate(R.menu.activity_menu, menu)
+    fun showPopup(view: View){
+        val popup = PopupMenu(this, view)
+        val inflater: MenuInflater = popup.menuInflater
 
-        return super.onCreateOptionsMenu(menu)
+        inflater.inflate(R.menu.activity_menu, popup.menu)
+
+        popup.setOnMenuItemClickListener { menuItem ->
+            when(menuItem.itemId){
+                R.id.favoritesActivity -> {
+                    val intent = Intent(this, FavoritesActivity::class.java)
+                    this.startActivity(intent)
+                }
+
+                R.id.orderActivity -> {
+                    val intent = Intent(this, OrderActivity::class.java)
+                    this.startActivity(intent)
+                }
+            }
+            true
+        }
+        popup.show()
     }
+
 }
+
 

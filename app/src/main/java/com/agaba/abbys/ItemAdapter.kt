@@ -23,14 +23,19 @@ class  ItemAdapter: BaseAdapter {
 
         var inflator = context!!.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
         var itemView= inflator.inflate(R.layout.item_ticket,null)
+        var favIcon = itemView.findViewById<ImageView>(R.id.favorite)
+        var orderIcon = itemView.findViewById<ImageView>(R.id.addToBag)
+        var itemName = itemView.findViewById<TextView>(R.id.itemName).text.toString()
+        var itemIndex = 0
 
         itemView.findViewById<ImageView>(R.id.itemImage).setImageResource(item.image!!)
         itemView.findViewById<TextView>(R.id.rating).text = item.ratg!!
         itemView.findViewById<TextView>(R.id.itemName).text = item.name!!
 
-        var favIcon = itemView.findViewById<ImageView>(R.id.favorite)
-        var orderIcon = itemView.findViewById<ImageView>(R.id.addToBag)
-        var itemName = itemView.findViewById<TextView>(R.id.itemName).text.toString()
+        for (x in com.agaba.abbys.listOfItems){
+            if(x.name == itemName)
+                itemIndex = com.agaba.abbys.listOfItems.indexOf(x)
+        }
 
         if(item.favorite!!){
             favIcon.setImageResource(R.drawable.ic_baseline_favorite_24)
@@ -62,70 +67,46 @@ class  ItemAdapter: BaseAdapter {
         }
 
         favIcon.setOnClickListener{
-            var fav:Item? = null
-
             if(favIcon.tag == "unFav"){
                 favIcon.setImageResource(R.drawable.ic_baseline_favorite_24)
                 favIcon.tag = "fav"
 
-                for (item in com.agaba.abbys.listOfItems){
-                    if(item.name == itemName) {
-                        item.favorite = true
-                        fav = item
-                    }
-                }
+                com.agaba.abbys.listOfItems[itemIndex].favorite = true
 
-                listOFFavorites.add(fav!!)
+                listOFFavorites.add(com.agaba.abbys.listOfItems[itemIndex])
 
-                Snackbar.make(favIcon, "Added ${fav!!.name} to favorites", Snackbar.LENGTH_SHORT).show()
+                Snackbar.make(favIcon, "Added ${com.agaba.abbys.listOfItems[itemIndex].name} to favorites", Snackbar.LENGTH_SHORT).show()
             }else {
                 favIcon.setImageResource(R.drawable.ic_baseline_favorite_border_24)
                 favIcon.tag = "unFav"
 
-                for (item in com.agaba.abbys.listOfItems){
-                    if(item.name == itemName) {
-                        item.favorite = false
-                        fav = item
-                    }
-                }
+                listOFFavorites.remove(com.agaba.abbys.listOfItems[itemIndex])
 
-                listOFFavorites.remove(fav!!)
+                com.agaba.abbys.listOfItems[itemIndex].favorite = false
 
-                Snackbar.make(favIcon, "Removed ${fav!!.name} from favorites", Snackbar.LENGTH_SHORT).show()
+                Snackbar.make(favIcon, "Removed ${com.agaba.abbys.listOfItems[itemIndex].name} from favorites", Snackbar.LENGTH_SHORT).show()
             }
         }
 
         orderIcon.setOnClickListener{
-            var order:Item? = null
-
             if(orderIcon.tag == "removed"){
                 orderIcon.setImageResource(R.drawable.ic_baseline_shopping_bag_24)
                 orderIcon.tag = "added"
 
-                for (item in com.agaba.abbys.listOfItems){
-                    if(item.name == itemName){
-                        item.ordered = true
-                        order = item
-                    }
-                }
+                orderList.add(com.agaba.abbys.listOfItems[itemIndex])
 
-                orderList.add(order!!)
+                com.agaba.abbys.listOfItems[itemIndex].ordered = true
 
-                Snackbar.make(orderIcon, "Added ${order!!.name} to bag", Snackbar.LENGTH_SHORT).show()
+                Snackbar.make(orderIcon, "Added ${com.agaba.abbys.listOfItems[itemIndex].name} to bag", Snackbar.LENGTH_SHORT).show()
             }else {
                 orderIcon.setImageResource(R.drawable.ic_baseline_shopping_bag_black_24)
                 orderIcon.tag = "removed"
 
-                for (item in com.agaba.abbys.listOfItems){
-                    if(item.name == itemName){
-                        item.ordered = false
-                        order = item
-                    }
-                }
+                com.agaba.abbys.listOfItems[itemIndex].ordered = false
 
-                orderList.remove(order!!)
+                orderList.remove(com.agaba.abbys.listOfItems[itemIndex])
 
-                Snackbar.make(orderIcon, "Removed ${order!!.name} from bag", Snackbar.LENGTH_SHORT).show()
+                Snackbar.make(orderIcon, "Removed ${com.agaba.abbys.listOfItems[itemIndex].name} from bag", Snackbar.LENGTH_SHORT).show()
             }
         }
 
