@@ -12,7 +12,7 @@ import androidx.appcompat.app.AppCompatActivity
 
 var listOfItems =ArrayList<Item>()
 
-var restarted: Boolean = false
+var categoryDetailsRestarted: Boolean = false
 
 var mmsws: Item? = null
 var mmtms: Item? = null
@@ -65,7 +65,7 @@ class CategoryDetailsActivity : AppCompatActivity() {
 
         val bundle=intent.extras
 
-        if(!restarted){
+        if(!categoryDetailsRestarted){
             mmsws = Item(getString(R.string.mmsws), getString(R.string.mmsws_desc), getString(R.string.mmsws_price), getString(R.string.mmsws_cal), getString(R.string.mmsws_ingrd), getString(R.string.mmsws_ratg), R.drawable.minute_maid_strawberry_watermelon_slushie)
             mmtms = Item(getString(R.string.mmtms), getString(R.string.mmtms_desc), getString(R.string.mmtms_price), getString(R.string.mmtms_cal), getString(R.string.mmtms_ingrd), getString(R.string.mmtms_ratg), R.drawable.minute_maid_tropical_mango_slushie)
             cc = Item(getString(R.string.cc), getString(R.string.cc_desc), getString(R.string.cc_price), getString(R.string.cc_cal), getString(R.string.cc_ingrd), getString(R.string.cc_ratg), R.drawable.coca_cola)
@@ -214,7 +214,7 @@ class CategoryDetailsActivity : AppCompatActivity() {
             }
         }
 
-        restarted = true
+        categoryDetailsRestarted = true
     }
 
     override fun onRestart() {

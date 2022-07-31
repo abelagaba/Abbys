@@ -18,10 +18,10 @@ class OrderActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_order)
 
-        var orderAdapter:OrderAdapter? = null
+        var orderAdapter: OrderAdapter
         var totalCharge = findViewById<TextView>(R.id.totalCharge)
         val checkout = findViewById<Button>(R.id.checkout)
-        var total:Float? = null
+        var total:Float? = 0.0f
 
         if(orderList.isEmpty()){
             findViewById<TextView>(R.id.noOrder).visibility = View.VISIBLE
@@ -40,6 +40,7 @@ class OrderActivity : AppCompatActivity() {
             Snackbar.make(checkout, "Cleared", LENGTH_SHORT).show()
 
             orderList.clear()
+
             finish()
             startActivity(intent)
         }

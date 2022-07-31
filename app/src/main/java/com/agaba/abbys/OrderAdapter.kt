@@ -25,8 +25,8 @@ class  OrderAdapter: BaseAdapter {
         orderItemView.findViewById<ImageView>(R.id.orderImage).setImageResource(item.image!!)
         orderItemView.findViewById<TextView>(R.id.orderItemName).text = item.name!!
         orderItemView.findViewById<TextView>(R.id.orderItemRating).text = item.ratg!!
-        orderItemView.findViewById<TextView>(R.id.orderQuantity).text = item.qty!!.toString()
-        orderItemView.findViewById<TextView>(R.id.orderPrice).text = item.price!!
+        orderItemView.findViewById<TextView>(R.id.orderItemQuantity).text = item.qty!!.toString()
+        orderItemView.findViewById<TextView>(R.id.orderItemPrice).text = item.price!!
 
         orderItemView.findViewById<ImageView>(R.id.orderImage).setOnClickListener {
 
@@ -41,6 +41,10 @@ class  OrderAdapter: BaseAdapter {
             context!!.startActivity(intent)
         }
 
+        orderItemView.findViewById<ImageView>(R.id.removeOrderItem).setOnClickListener {
+            listOfItems.remove(item)
+        }
+
         return  orderItemView
     }
 
@@ -53,7 +57,6 @@ class  OrderAdapter: BaseAdapter {
     }
 
     override fun getCount(): Int {
-
         return listOfItems.size
     }
 

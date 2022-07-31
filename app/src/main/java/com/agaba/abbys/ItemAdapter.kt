@@ -25,7 +25,7 @@ class  ItemAdapter: BaseAdapter {
         var itemView= inflator.inflate(R.layout.item_ticket,null)
         var favIcon = itemView.findViewById<ImageView>(R.id.favorite)
         var orderIcon = itemView.findViewById<ImageView>(R.id.addToBag)
-        var itemName = itemView.findViewById<TextView>(R.id.itemName).text.toString()
+        var itemName = item.name!!
         var itemIndex = 0
 
         itemView.findViewById<ImageView>(R.id.itemImage).setImageResource(item.image!!)

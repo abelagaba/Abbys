@@ -22,4 +22,11 @@ class FavoritesActivity : AppCompatActivity() {
             findViewById<GridView>(R.id.favGridView).adapter = favoriteAdapter
         }
     }
+
+    override fun onRestart() {
+        super.onRestart()
+
+        finish()
+        startActivity(intent)
+    }
 }

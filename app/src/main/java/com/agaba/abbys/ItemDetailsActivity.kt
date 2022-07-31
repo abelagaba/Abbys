@@ -25,12 +25,12 @@ class ItemDetailsActivity : AppCompatActivity() {
         )
 
         val bundle = intent.extras
-        var qty = findViewById<TextView>(R.id.itemQuantity)
+        val qty = findViewById<TextView>(R.id.itemQuantity)
         var qtyInt = qty.text.toString().toInt()
         var itemIndex = 0
-        var favIcon = findViewById<ImageView>(R.id.itemFavorite)
-        var orderButton = findViewById<Button>(R.id.addItemToBag)
-        var itemName = bundle!!.getString("name")
+        val favIcon = findViewById<ImageView>(R.id.itemFavorite)
+        val orderButton = findViewById<Button>(R.id.addItemToBag)
+        val itemName = bundle!!.getString("name")
 
         for (x in listOfItems){
             if(x.name == itemName)
@@ -42,6 +42,7 @@ class ItemDetailsActivity : AppCompatActivity() {
         findViewById<TextView>(R.id.calories).text = bundle!!.getString("cal")
         findViewById<TextView>(R.id.itemDescription).text = bundle!!.getString("desc")
         findViewById<TextView>(R.id.itemPrice).text = bundle!!.getString("price")
+        findViewById<TextView>(R.id.itemRating).text = bundle!!.getString("ratg")
         findViewById<TextView>(R.id.Ingredients).text = bundle!!.getString("ingrd")
         
         findViewById<ImageView>(R.id.increaseQty).setOnClickListener {

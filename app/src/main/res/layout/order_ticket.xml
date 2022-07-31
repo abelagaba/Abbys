@@ -27,8 +27,7 @@
             android:layout_width="190dp"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginStart="10dp"
-            android:padding="5dp">
+            android:layout_marginStart="10dp">
 
             <TextView
                 android:id="@+id/orderItemName"
@@ -75,7 +74,7 @@
                     android:textSize="12sp"/>
 
                 <TextView
-                    android:id="@+id/orderQuantity"
+                    android:id="@+id/orderItemQuantity"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="qty"
@@ -103,7 +102,7 @@
                     app:srcCompat="@drawable/ic_baseline_attach_money_24" />
 
                 <TextView
-                    android:id="@+id/orderPrice"
+                    android:id="@+id/orderItemPrice"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="price"
