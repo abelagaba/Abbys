@@ -93,18 +93,18 @@ class  ItemAdapter: BaseAdapter {
                 orderIcon.setImageResource(R.drawable.ic_baseline_shopping_bag_24)
                 orderIcon.tag = "added"
 
-                orderList.add(com.agaba.abbys.listOfItems[itemIndex])
-
                 com.agaba.abbys.listOfItems[itemIndex].ordered = true
+
+                orderList.add(com.agaba.abbys.listOfItems[itemIndex])
 
                 Snackbar.make(orderIcon, "Added ${com.agaba.abbys.listOfItems[itemIndex].name} to bag", Snackbar.LENGTH_SHORT).show()
             }else {
                 orderIcon.setImageResource(R.drawable.ic_baseline_shopping_bag_black_24)
                 orderIcon.tag = "removed"
 
-                com.agaba.abbys.listOfItems[itemIndex].ordered = false
-
                 orderList.remove(com.agaba.abbys.listOfItems[itemIndex])
+
+                com.agaba.abbys.listOfItems[itemIndex].ordered = false
 
                 Snackbar.make(orderIcon, "Removed ${com.agaba.abbys.listOfItems[itemIndex].name} from bag", Snackbar.LENGTH_SHORT).show()
             }

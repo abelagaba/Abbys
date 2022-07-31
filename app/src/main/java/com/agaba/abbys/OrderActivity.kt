@@ -22,7 +22,7 @@ class OrderActivity : AppCompatActivity() {
         var totalCharge = findViewById<TextView>(R.id.totalCharge)
         val checkout = findViewById<Button>(R.id.checkout)
         var total:Float? = 0.0f
-
+        
         if(orderList.isEmpty()){
             findViewById<TextView>(R.id.noOrder).visibility = View.VISIBLE
             findViewById<LinearLayout>(R.id.chargeAndCheckout).visibility = View.INVISIBLE

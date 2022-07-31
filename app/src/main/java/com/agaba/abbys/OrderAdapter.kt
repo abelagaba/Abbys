@@ -42,7 +42,17 @@ class  OrderAdapter: BaseAdapter {
         }
 
         orderItemView.findViewById<ImageView>(R.id.removeOrderItem).setOnClickListener {
-            listOfItems.remove(item)
+            var itemName = item.name!!
+            var itemIndex = 0
+
+            for (x in com.agaba.abbys.listOfItems){
+                if(x.name == itemName)
+                    itemIndex = com.agaba.abbys.listOfItems.indexOf(x)
+            }
+
+            orderList.remove(com.agaba.abbys.listOfItems[itemIndex])
+
+            com.agaba.abbys.listOfItems[itemIndex].ordered = false
         }
 
         return  orderItemView
