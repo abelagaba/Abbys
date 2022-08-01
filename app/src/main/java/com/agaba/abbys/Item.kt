@@ -16,7 +16,7 @@ class Item(
     var ingrd:String? = ingrd
     var ratg:String? = ratg
     var image:Int? = image
-    var qty:Int? =null
+    var qty:Int? =1
     var favorite:Boolean? =false
     var ordered:Boolean? =false
 
