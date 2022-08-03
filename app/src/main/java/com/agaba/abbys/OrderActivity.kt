@@ -1,6 +1,7 @@
 package com.agaba.abbys
 
 import android.os.Bundle
+import android.os.Handler
 import android.view.View
 import android.widget.Button
 import android.widget.GridView
@@ -10,9 +11,9 @@ import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.snackbar.Snackbar
 
 var orderList = ArrayList<Item>()
+var orderAdapter: OrderAdapter?=null
 
 class OrderActivity : AppCompatActivity() {
-    var orderAdapter: OrderAdapter?=null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -50,8 +51,18 @@ class OrderActivity : AppCompatActivity() {
 
             orderList.clear()
 
-            finish()
-            startActivity(intent)
+            Handler().postDelayed({
+                finish()
+                startActivity(intent)
+            }, 3000)
         }
     }
+
+    override fun onRestart() {
+        super.onRestart()
+
+        finish()
+        startActivity(intent)
+    }
 }
+

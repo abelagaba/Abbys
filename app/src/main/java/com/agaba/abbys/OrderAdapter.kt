@@ -53,6 +53,9 @@ class  OrderAdapter: BaseAdapter {
             orderList.remove(com.agaba.abbys.listOfItems[itemIndex])
 
             com.agaba.abbys.listOfItems[itemIndex].ordered = false
+
+            val intent = Intent(context, OrderActivity::class.java)
+            context!!.startActivity(intent)
         }
 
         return  orderItemView
